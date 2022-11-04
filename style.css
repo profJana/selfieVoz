@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: rgb(205,220,238);
+    background: radial-gradient(circle, rgba(205,220,238,1) 20%, rgba(164,182,203,1) 93%);
+}
+
+#mainContent{
+    text-align: center;
+}
+
+h1{
+    padding-bottom: 50px;
+    color: #5381bb;
+}
+
+#spanSelfie{
+    color: #5381bb;
+}
+
+.form-group textarea{
+    border: none;
+    background-color: #78a7e065;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+.playButton{
+   padding: 10px 20px; 
+   border: none;
+   border-radius: 10px;
+   background-color: #89b5eb;
+}
+
+.playButton:hover{
+    background-color: rgb(190, 208, 245);
+}
+
+#webcam{
+    height: 250px;
+    border:1px solid #89b5eb;
+}
+
